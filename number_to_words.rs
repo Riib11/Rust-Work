@@ -55,7 +55,7 @@ impl NumBlock {
 static ONES    : &'static [&str;10] = &["zero","one","two","three","four","five","six","seven","eight","nine"];
 static TEENS   : &'static [&str;10] = &["","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"];
 static TENS    : &'static [&str;10] = &["","ten","twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety"];
-static ENDINGS : &'static [&str;6]  = &["","thousand","million","billion","trillion","gazillion"];
+static ENDINGS : &'static [&str;16]  = &["","thousand","million","billion","trillion","quadrillion","quintillion","sextillion","septillion","octillion","nonillion","decillion","undecillion","duodecillion","tredecillion","quattuordecillion"];
 
 // formats a NumBlock into word form
 impl fmt::Display for NumBlock {
