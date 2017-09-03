@@ -1,4 +1,4 @@
-# Running
+# num_to_words
 
 Run with ```./num_to_words```. Type in an integer greater or equal to zero and less than one quindecillion. The program will print out the english-verbal form of the given number.
 
