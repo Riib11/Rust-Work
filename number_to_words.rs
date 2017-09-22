@@ -77,6 +77,7 @@ impl fmt::Display for NumBlock {
         // deal with teens
         if self.tens == 1
             && self.ones != 0   {   
+                                    if self.huns != 0 { words.push( " " ) };
                                     words.push( TEENS[self.ones as usize] );
                                     
                             }
